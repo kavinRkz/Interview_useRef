@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import './style.css';
+import StopWatch from './StopWatch';
 
 export default function App() {
   const myRef = useRef('');
@@ -15,6 +16,10 @@ export default function App() {
     <div>
       <input type="text" ref={myRef} />
       <button onClick={handleAdd}>Add</button>
+
+      <div>
+        <StopWatch/>
+      </div>
     </div>
   );
 }
