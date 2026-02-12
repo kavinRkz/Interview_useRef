@@ -18,7 +18,7 @@ export default function App() {
       <button onClick={handleAdd}>Add</button>
 
       <div>
-        <StopWatch/>
+      <StopWatch/>
       </div>
     </div>
   );
